@@ -6,6 +6,7 @@ public class ReverseArrays {
     static void rvereseArray(int arr[], int start, int end)
     {
         int temp;
+
         if (start >= end)
             return;
         temp = arr[start];
@@ -22,7 +23,6 @@ public class ReverseArrays {
         System.out.println("");
     }
 
-    /*Driver function to check for above functions*/
     public static void main (String[] args) {
         int arr[] = {1, 2, 3, 4, 5, 6};
         printArray(arr, 6);
