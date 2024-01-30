@@ -1,5 +1,4 @@
 package src;
-
 public class Person {
     int age =20;
     String data;
