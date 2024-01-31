@@ -7,6 +7,9 @@ class Pen{
     public void write(){
         System.out.println("writing Something");
     }
+    public void printColor(){
+        System.out.println(this.color);
+    }
 }
 
 
@@ -16,6 +19,12 @@ public class oop {
         pen1.color="blue";
         pen1.type="gel";
 
-        pen1.write();
+//        pen1.write();
+        Pen pen2 = new Pen();
+        pen2.color="black";
+        pen2.type="ball Pen";
+
+        pen1.printColor();
+        pen2.printColor();
     }
 }
