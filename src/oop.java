@@ -12,6 +12,15 @@ class Pen{
     }
 }
 
+class Student_{
+    String name;
+    int age;
+
+    public void printInfo(){
+        System.out.println(this.name);
+        System.out.println(this.age);
+    }
+}
 
 public class oop {
     public static void main(String[] args) {
