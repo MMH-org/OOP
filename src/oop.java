@@ -20,8 +20,13 @@ class Student_{
         System.out.println(this.name);
         System.out.println(this.age);
     }
-    Student_(){
-        System.out.println("non parametric constructors");
+//    Student_(){
+//        System.out.println("non parametric constructors");
+//    }
+
+    Student_(String name,int age){
+        this.name= name;
+        this.age=age;
     }
 }
 
@@ -40,9 +45,12 @@ public class oop {
 //        pen2.printColor();
 
         // class Student_
-        Student_ s1=new Student_();
-        s1.name="Devil";
-        s1.age=22;
-        s1.printInfo();
+//        Student_ s1=new Student_();
+//        s1.name="Devil";
+//        s1.age=22;
+//        s1.printInfo();
+
+        Student_ s2=new Student_("Mohsin",22);
+        s2.printInfo();
     }
 }
