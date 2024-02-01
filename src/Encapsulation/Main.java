@@ -1,11 +1,11 @@
 package src.Encapsulation;
 
-public class EncapsulationMain {
+public class Main {
     public static void main(String[] args) {
         System.out.println("for img https://media.geeksforgeeks.org/wp-content/uploads/Encapsulation.jpg");
 
         // person object created
-        Person person = new Person(); // create Object
+        EncapsulationClass person = new EncapsulationClass(); // create Object
         person.setName("Mohsin"); // calling set method and set name
         person.setAge(22); //calling set method and set age
 

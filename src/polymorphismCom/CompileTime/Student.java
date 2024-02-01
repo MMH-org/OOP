@@ -1,4 +1,4 @@
-package src.polymorphismCom;
+package src.polymorphismCom.CompileTime;
 
 class Student{
     String name;
@@ -14,16 +14,4 @@ class Student{
         System.out.println(name+" "+age);
     }
 
-}
-
-
-
-public class OopPolymorphism {
-    public static void main(String[] args) {
-        Student student_obj1= new Student();
-        student_obj1.name="Devil";
-        student_obj1.age=23;
-
-        student_obj1.PrintInfo(student_obj1.age);
-    }
 }

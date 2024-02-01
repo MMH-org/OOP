@@ -1,6 +1,6 @@
 package src.Encapsulation;
 
-class Person {
+class EncapsulationClass {
     // Encapsulating the name and age
     // only approachable and used
     // methods defined
